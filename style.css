@@ -1,6 +1,7 @@
-.izq{
-    position: fixed;
-    top: 80px;
-    left: 10px;
-    float: left;
+h4{
+    text-align : center;
+}
+h1{
+    text-align: center;
+    padding: 1%;
 }
