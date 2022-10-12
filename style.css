@@ -1,15 +1,22 @@
 h4{
     text-align : center;
 }
+
 h1{
     text-align: center;
-    padding: 1%;
 }
 
 .opciones li {
 text-decoration:underline;
+cursor: pointer;
 }
 
 .container p {
     background-color:#F8F9FA;
+}
+
+.navbar-collapse-n {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: normal;
 }
