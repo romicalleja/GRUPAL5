@@ -9,3 +9,7 @@ h1{
 .opciones li {
 text-decoration:underline;
 }
+
+.container p {
+    background-color:#F8F9FA;
+}
