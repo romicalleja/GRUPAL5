@@ -27,11 +27,22 @@
        <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse d-lg-flex " id="navbarLoremIpsum">
+      <div class="collapse navbar-collapse d-lg-flex" id="navbarLoremIpsum">
 
-        <div class="me-lg-auto d-block ">
-
+        <div class="me-lg-auto d-block">
+          
           <ul class="navbar-nav mb-2 mb-lg-0">
+            <div class="order-lg-last">
+              <form  role="search">
+                <input
+                
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </form>
+          </div>
 
             <li class="nav-item mx-lg-5">
               <a class="nav-link" aria-current=" page" href="#">Dolor</a>
@@ -45,7 +56,7 @@
               <a class="nav-link">Amet</a>
             </li>
 
-            <li class="nav-item mx-lg-5 d-lg-none">
+            <li class="nav-item mx-lg-5 d-lg-none order-sm-last">
               <a
                 class="nav-link"
                 data-bs-toggle="collapse"
@@ -60,16 +71,6 @@
           </ul>
         </div>
 
-        <div class="">
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-          </form>
-        </div>
       </div>
     </div>
   </nav>
