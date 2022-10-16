@@ -14,9 +14,3 @@ cursor: pointer;
 .container p {
     background-color:#F8F9FA;
 }
-
-.navbar-collapse-n {
-    flex-basis: 100%;
-    flex-grow: 1;
-    align-items: normal;
-}
